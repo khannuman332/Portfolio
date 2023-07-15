@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    /* justify-content:center; */
+    /* background-color: black; */
+  
+    
+}
+
+#logo img{
+    width: 100px;
+    height: 100px;
+    margin: 8px 7px;
+}
+#navbar ul  {
+    display: flex;
+    /* align-items: center;
+   justify-content: center; */
+} 
+#navbar ul  li {
+list-style: none;
+/* padding: 0px 36px; */
+font-size: 21px;}
+
+#navbar::before{
+    content: "";
+    width: 100%;
+    height: 19%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    background-color: black;
+}
+
+#navbar li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    padding: 6px 25px;
+    
+    text-decoration: none;
+  
+}
+#navbar li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    height:300px;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    width: 100%;
+    height: 70%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.89;
+    background:url('img/pexels-rajesh-tp-1633525.jpg') no-repeat center center/cover ;
+
+    /* background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    overflow-x: hidden;
+    overflow-y: auto; */
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+#home p{
+    color:#ffffffe6;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+.h-pri{
+    font-size: 2.7rem;
+    padding: 23px;
+}
+.h-sec{
+    font-size: 2.2rem;
+    padding: 12px;
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+.btn{
+    padding: 6px 20px;
+    border:2px solid black;
+    background-color: #ffefbdba;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 17px;
+    font-size: 1rem;
+}
+.center
+{
+    text-align: center;
+}
+/* .service-container{
+    display: flex;
+} */
+#services{
+    margin: 13px;
+    display: flex;
+    
+    /* flex-direction: row; */
+}
+#services .box{
+    border: 2px solid brown;
+    height: 281px;
+    width: 426px;
+    padding: 6px;
+    margin: 9px;
+    border-radius: 23px;
+    background-color: #f1f1f142;
+}
+#services .box img{
+    display: block;
+    margin: auto;
+    height: 142px;
+}
+/* .client{
+    background-image: url('img/clbg.jpg');
+    width: 100%;
+    height: 100%;
+} */
+
+.client::before{
+    
+    content: "";
+    width: 100%;
+    height: 43%;
+    /* top: 0px;
+    left: 0px; */
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    background:url('img/clbg.jpg') no-repeat center center/cover ;
+}
+.client img{
+    height: 133px;
+    padding: 7px;
+}
+.cl{
+   display: flex;
+   /* margin: 4px 364px; */
+   justify-content: center;
+   align-items: center;
+}
+/* .contactbox{
+    /* padding-bottom: 34px; 
+} */
+.contactbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 12px; */
+}
+.contactbox  form input {
+    width: 136%;
+    border-radius: 4px;
+
+    
+}
+.contactbox  form textarea {
+    width: 136%;
+    border-radius: 4px;
+}
+footer{
+    background-color: black;
+    color: whitesmoke;
+}
+.contactbox label{
+    font-size: 17px;
+    font-weight:bold ;
+}

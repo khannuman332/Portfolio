@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('img/bg1.jpg');
+    /* background-image: url('img/bg2.jpg'); */
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+   
+    /* width:100vw; */
+}
+.left figcaption{
+    color: hsl(0deg 45% 99%);
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 34px;
+
+}
+.navbar li a{
+    
+    text-decoration: none;
+    color: #ebeac0;
+   font-size: 26px;
+
+}
+.navbar li a:hover{
+    color: rgb(204, 15, 15);
+}
+.navbar li{
+    float: left;
+    list-style-type: none;
+    padding: 12px;
+ margin: 23px;
+    font-style: oblique;
+    
+}
+nav.navbar{
+    margin-top:12px;
+    margin-bottom: 12px;
+}
+.left img{
+  
+    width: 147px;
+    border-radius: 0px 28px;
+}
+.left{
+    display: inline-block;
+    top: 20px;
+    position:absolute;
+    left:34px;
+    /* border: 2px solid ; */
+    }
+
+.right{
+display: inline-block;
+top: 20px;
+position:absolute;
+right:34px;
+/* border: 2px solid gold; */
+}
+.center
+{
+display:inline-block ;
+/* background-color: black; */
+position: sticky;
+width:60%;
+/* border: 2px solid yellow; */
+margin: 16px 263px;
+}
+
+button{
+    padding: 38px 7px;
+    font-size: 22px;
+    font-style: italic;   
+    /* color: bisque; */
+    background-color: white;
+    border-radius: 28px 0px;
+}    
+button:hover{
+    color: rgb(243, 11, 11);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.det{
+    /* border: 2px solid whitesmoke; */
+    margin-top: 58px;
+    width: 488px;
+    font-size: 20px;
+    font-family: monospace;
+    background-color: #441d1d75;
+    color:  rgb(163 136 136 / 69%);
+    float : right;
+}
+.s1 img{
+    width: 315px;
+    margin-top: 250px;
+}
+   /* .p2 {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-image: url('img\bg2.jpg');
+   } */
+/* .right a{
+    text-decoration:line-through;
+    padding: 38px 7px;
+    font-size: 22px;
+    font-style: italic;   
+    /* color: bisque; */
+    /* background-color: white;
+            border-radius: 28px 0px;
+} */
+/* .right a:hover{ 
+    color:rgb(124, 122, 120) ;
+} */

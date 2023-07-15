@@ -1,0 +1,51 @@
+#navbar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#navbar::before{
+    height:25%;
+}
+
+#services{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li a{
+    color:black;
+    font-weight: bold;
+}
+#home{
+    /* flex-direction: column; */
+    height: 280px;
+}
+#home::before{
+    height: 400px;
+    padding:3px 100px;
+}
+
+.h-pri{
+font-size: 32px;
+padding-left: 0px;
+padding-right:0px;
+margin: 0px 0px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar{
+    margin-bottom: -24px;
+}
+#home p{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    padding: 0px 3px;
+    
+}

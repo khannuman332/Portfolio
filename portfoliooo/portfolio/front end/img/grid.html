@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .cont{
+        display: grid;
+         /* grid-template-columns: auto 50px 200px 300px;  */
+        /* grid-template-columns: repeat(5,auto); */
+        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(330px,500px));
+        
+    }
+    .item{
+        border:2px solid black;
+        background-color: aliceblue;
+        margin: 3px;
+        padding: 23px;
+    }
+    .item:first-child{
+        grid-column: 1 / span 3;
+        grid-row: 1/span 3;
+    }
+</style>
+<body>
+    <div class="cont">
+        <div class="item">iii</div>
+        <div class="item">uuu</div>
+        <div class="item">vvv</div>
+        <div class="item">ddd</div>
+        <div class="item">sss</div>
+        <div class="item">aaa</div>
+        <div class="item">qqq</div>
+        <div class="item">www</div>
+        <div class="item">ooo</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+h1,p{
+    text-align:center;
+  color: goldenrod;
+  background-color: #0f010104;
+  }
+  form{
+   
+  background-color: rgb(241, 168, 72);
+  width:50%;
+  border : 2px solid #000;
+  color:white;
+  padding:5px;
+  line-height: 25px; 
+  margin-left: auto;
+  margin-right: auto;
+  }
+  body{
+   background-color: black;
+   
+  }
+  .c1{
+  margin-top: 15px;
+  }
+  

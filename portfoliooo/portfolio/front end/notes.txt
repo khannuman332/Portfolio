@@ -1,0 +1,22 @@
+DOM-document object model
+to  acess element under body tag in tree form.
+we access by usin getelementbyid,getelementbyclassname,etc..
+/
+Browser events
+@click
+@contextmenu
+@ moudseover/mouseout
+@ mousedown/mouseup
+@ submit
+@ focus
+if we want to change display use element.style.display
+addeeventlistener using this we can add events.
+setmeout --> allows us to run the function once after the time interval
+clear time out ==> allows torun fntion reptedly after the interval
+set interval ,clear interval
+making date--> {let now =new date();}
+* arrrow function..produces shortcut  let sum =(a,b)=> a+b;
+* math object --   all the mathemaics function are present which can be accesed by using Math(); 
+JSON-js  
+  object notation   we can transfer oobject over a network.
+  stringify converts a valid java object into string.
